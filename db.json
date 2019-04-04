@@ -1,0 +1,211 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "firstName": "SURBHI",
+      "lastName": "GOYAL",
+      "email": "SURBHI.GOYAL@JUNGLEWORKS.COM",
+      "password": "123456",
+      "phnumber": 123456789,
+      "address": "HISAR",
+      "cpassword": "123456",
+      
+      "id": 1
+    },
+    {
+      "firstName": "vicky",
+      "lastName": "jindal",
+      "email": "v@j.com",
+      "password": "1234567",
+      "phnumber": 123,
+      "address": "HISAR",
+      "cpassword": "1234567",
+      "id": 2
+    },
+    
+    {
+      "firstName": "pritish",
+      "lastName": "sinha",
+      "email": "p@s.com",
+      "password": "123456",
+      "phnumber": 1234,
+      "address": "HISAR",
+      "cpassword": "123456",
+      "id": 4
+    },
+    {
+      "firstName": "SURBHI",
+      "lastName": "GOYAL",
+      "email": "SURBHI.GOYAL@JUNGLEWORKS.COM",
+      "password": "123456",
+      "phnumber": 123456789,
+      "address": "HISAR",
+      "cpassword": "123456",
+      "id": 5
+    },
+    
+    
+    
+    {
+      "firstName": "s",
+      "lastName": "g",
+      "email": "s@g.com",
+      "password": "123456",
+      "phnumber": 123456789,
+      "address": "hisar",
+      "cpassword": "123456",
+      "id": 10
+    },
+    {
+      "firstName": "s",
+      "lastName": "j",
+      "email": "s@j.com",
+      "password": "123456",
+      "phnumber": 1234,
+      "address": "HISAR",
+      "cpassword": "123456",
+      "id": 11
+    },
+    {
+      "firstName": "a",
+      "lastName": "b",
+      "email": "a@b.com",
+      "password": "123456",
+      "phnumber": 1234,
+      "address": "HISAR",
+      "cpassword": "123456",
+      "id": 12
+    },
+    
+    
+    
+    
+    
+    {
+      "firstName": "sdfsf",
+      "lastName": "rdrgdfg",
+      "email": "hf@yopmail.com",
+      "password": "123456",
+      "phnumber": 545445646551,
+      "address": "sdhgfydf",
+      "cpassword": "123456",
+      "history": "dsfdsf",
+      "id": 18
+    },
+    
+    {
+      "firstName": "r",
+      "lastName": "s",
+      "fullName": "r s s",
+      "email": "r@ss.com",
+      "phnumber": 1234,
+      "address": "hisar",
+      "password": "123456",
+      "history": "no",
+      "id": 20
+    },
+    {
+      "firstName": "p",
+      "lastName": "qr",
+      "fullName": "p qr",
+      "email": "p@q.com",
+      "phnumber": 1234,
+      "address": "HISAR",
+      "password": "123456",
+      "cpassword": "123456",
+      "history": "no",
+      "id": 21
+    }
+   
+  ],
+  "my-bookings": [
+    {
+      "date": "1-2-2019",
+      "time": "12pm",
+      "status": "ongoing",
+      "traveler": "sachin",
+      "upcoming": "true",
+      "past": "false",
+      "address": " 106-n,model-town"
+    },
+    {
+      "date": "2-2-2019",
+      "time": "1pm",
+      "status": "on the way",
+      "traveler": "surbhi",
+      "upcoming": "true",
+      "past": "false",
+      "address": "107-n,model-town"
+    },
+    {
+      "date": "3-2-2019",
+      "time": "2pm",
+      "status": "ongoing",
+      "traveler": "konica",
+      "upcoming": "true",
+      "past": "false",
+      "address": "108-n,model-town"
+    },
+    {
+      "date": "4-2-2019",
+      "time": "3pm",
+      "status": "completed",
+      "traveler": "rohan",
+      "upcoming": "false",
+      "past": "true",
+      "address": "109-n,model-town"
+    },
+    {
+      "date": "5-2-2019",
+      "time": "3pm",
+      "status": "completed",
+      "traveler": "sohan",
+      "upcoming": "false",
+      "past": "true",
+      "address": "110-n,model-town"
+    },
+    {
+      "date": "6-2-2019",
+      "time": "4pm",
+      "status": "completed",
+      "traveler": "sohan",
+      "upcoming": "false",
+      "past": "true",
+      "address": "111-n,model-town"
+    }
+  ],
+  "FAQs": [
+    {
+      "Qns": "What currency is the course charged in?",
+      "Ans": "The course is charged in Australian dollars."
+    },
+    {
+      "Qns": "What currency is the course charged in?",
+      "Ans": "The course is charged in Australian dollars."
+    },
+    {
+      "Qns": "What currency is the course charged in?",
+      "Ans": "The course is charged in Australian dollars."
+    },
+    {
+      "Qns": "What currency is the course charged in?",
+      "Ans": "The course is charged in Australian dollars."
+    }
+  ]
+}
