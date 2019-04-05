@@ -2,7 +2,7 @@ import { PostApiService } from './../../services/post.service';
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder,FormGroup} from '@angular/forms';
 import {Validators} from '@angular/forms';
-import {pwvalidator} from './pw-validator';
+import {EqualPasswordsValidator} from './pw-validator';
 import { Router } from '@angular/router';
 
 
@@ -32,7 +32,7 @@ export class RegisterComponent implements OnInit {
           cpassword: ['', [Validators.required, Validators.minLength(6)]],
           history:['']
       },
-      {validator: pwvalidator('password','cpassword')}
+      {validator: EqualPasswordsValidator.validate('password', 'cpassword')}
       );
   }
 
@@ -43,7 +43,7 @@ export class RegisterComponent implements OnInit {
       if (this.registerForm.invalid) {
           return false;
       }
-
+       
       //if the form is valid then post the form
 
       this.service.createUser(this.registerForm.value).subscribe();
