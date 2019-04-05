@@ -74,10 +74,11 @@
         <div *ngIf="submitted &amp;&amp; registerForm.controls.cpassword.errors" class="text-danger">
             <div *ngIf="registerForm.controls.cpassword.errors.required"> Confirm Password is required</div>
             <div *ngIf="registerForm.controls.cpassword.errors.minlength">Password must be at least 6 characters</div>
-            <div *ngIf="registerForm.errors?.passwordsMismatch"> 
-              Password and confirm password do not match. 
-              </div>
+            
         </div>
+        <div *ngIf="registerForm.errors?.mismatchedPasswords"> 
+          Password and confirm password do not match. 
+          </div>
     </div>
   </div>
   
