@@ -1,14 +1,19 @@
 <ul class="nav justify-content-end list"> 
   <li class="nav-item dropdown"> 
-  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{profilename}}</a> 
+  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" 
+    aria-haspopup="true" aria-expanded="false">
+    <img src="./assets/logo/logo.jpg" alt="logo-image" class="logo">{{profilename}}
+  </a> 
   <div class="dropdown-menu"> 
-  <a class="dropdown-item" routerLink="/user/mypage/profile">Profile</a> 
-  <a class="dropdown-item" routerLink="/user/mypage/my-bookings/upcoming">My Bookings</a> 
+  <a class="dropdown-item" routerLink="/user/mypage/profile"><img src="./assets/logo/logo.jpg" alt="logo-image" class="pic">
+    Profile</a> 
+  <a class="dropdown-item" routerLink="/user/mypage/my-bookings/upcoming">My Bookings  ({{totalbooking}})</a> 
   <a class="dropdown-item" routerLink="/user/mypage/faq">FAQs</a> 
   <div class="dropdown-divider"></div> 
   <a class="dropdown-item" routerLink="/public/login" (click)="logout()">Logout</a> 
   </div> 
   </li> 
   </ul> 
+  
   
   <router-outlet></router-outlet>
