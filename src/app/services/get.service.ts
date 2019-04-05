@@ -32,5 +32,10 @@ constructor(private http: HttpClient) {}
           
       }); 
    }
+   getbookingnumbers(){ 
+      return this.http.get('http://localhost:3000/my-bookings',{ 
+          
+      }); 
+   }
 
 }
