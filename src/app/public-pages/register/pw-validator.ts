@@ -1,5 +1,4 @@
 import { FormGroup } from '@angular/forms'; 
-
 export class EqualPasswordsValidator { 
 
     public static validate(password: string, cpassword: string) { 
