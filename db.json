@@ -1,0 +1,318 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "firstName": "SURBHI",
+      "lastName": "GOYAL",
+      "fullName": "SURBHI GOYAL",
+      "email": "SURBHI.GOYAL@JUNGLEWORKS.COM",
+      "phnumber": 123456789,
+      "address": "HISAR",
+      "password": "123456",
+      "cpassword": "123456",
+      "id": 1
+    },
+    {
+      "firstName": "vicky",
+      "lastName": "jindal",
+      "email": "v@j.com",
+      "password": "1234567",
+      "phnumber": 123,
+      "address": "HISAR",
+      "cpassword": "1234567",
+      "id": 2
+    },
+    {
+      "firstName": "pritish",
+      "lastName": "clicklab",
+      "fullName": "pritish clicklab",
+      "email": "p@s.com",
+      "phnumber": 1234,
+      "address": "HISAR",
+      "password": "123456",
+      "cpassword": "123456",
+      "id": 4
+    },
+    {
+      "firstName": "SURBHI",
+      "lastName": "GOYAL",
+      "email": "SURBHI.GOYAL@JUNGLEWORKS.COM",
+      "password": "123456",
+      "phnumber": 123456789,
+      "address": "HISAR",
+      "cpassword": "123456",
+      "id": 5
+    },
+    {
+      "firstName": "s",
+      "lastName": "g",
+      "email": "s@g.com",
+      "password": "123456",
+      "phnumber": 123456789,
+      "address": "hisar",
+      "cpassword": "123456",
+      "id": 10
+    },
+    {
+      "firstName": "s",
+      "lastName": "j",
+      "fullName": "s j",
+      "email": "s@j.com",
+      "phnumber": 1234,
+      "address": "HISAR",
+      "password": "123456",
+      "cpassword": "123456",
+      "id": 11
+    },
+    {
+      "firstName": "a",
+      "lastName": "bc",
+      "fullName": "a bc",
+      "email": "a@b.com",
+      "phnumber": 1234,
+      "address": "HISAR",
+      "password": "123456",
+      "cpassword": "123456",
+      "id": 12
+    },
+    {
+      "firstName": "sdfsf",
+      "lastName": "rdrgdfg",
+      "email": "hf@yopmail.com",
+      "password": "123456",
+      "phnumber": 545445646551,
+      "address": "sdhgfydf",
+      "cpassword": "123456",
+      "history": "dsfdsf",
+      "id": 18
+    },
+    {
+      "firstName": "r",
+      "lastName": "s",
+      "fullName": "r s s",
+      "email": "r@ss.com",
+      "phnumber": 1234,
+      "address": "hisar",
+      "password": "123456",
+      "history": "no",
+      "id": 20
+    },
+    {
+      "firstName": "p",
+      "lastName": "qr",
+      "fullName": "p qr",
+      "email": "p@q.com",
+      "phnumber": 1234,
+      "address": "HISAR",
+      "password": "123456",
+      "cpassword": "123456",
+      "history": "no",
+      "id": 21
+    },
+    {
+      "firstName": "gourav",
+      "lastName": "goyal",
+      "email": "g@g.com",
+      "password": "1234567",
+      "phnumber": 1234,
+      "address": "HISAR",
+      "cpassword": "12345678",
+      "history": "no",
+      "id": 22
+    },
+    {
+      "firstName": "xvxcv",
+      "lastName": "xcvxv",
+      "email": "gc@g.com",
+      "password": "123456",
+      "phnumber": 3.4352355345345345e+21,
+      "address": "zxcvxv",
+      "cpassword": "123456",
+      "history": "vxcvxcvx",
+      "id": 23
+    },
+    {
+      "firstName": "a",
+      "lastName": "b",
+      "email": "a@b.com",
+      "password": "123456",
+      "phnumber": 123,
+      "address": "df",
+      "cpassword": "123456",
+      "history": "et",
+      "id": 24
+    },
+    {
+      "firstName": "robin",
+      "lastName": "singhclicklab",
+      "fullName": "robin singhclicklab",
+      "email": "r@s.com",
+      "phnumber": 123456,
+      "address": "fg",
+      "password": "123456",
+      "cpassword": "123456",
+      "history": "ghg",
+      "id": 25
+    },
+    {
+      "firstName": "konica",
+      "lastName": "",
+      "fullName": "konica  ramanclick",
+      "email": "k@r.com",
+      "phnumber": 123456,
+      "address": "sonipat",
+      "password": "123456",
+      "cpassword": "123456",
+      "history": "no",
+      "id": 26
+    },
+    {
+      "firstName": "surbhi",
+      "lastName": "jindal",
+      "email": "s@j.com",
+      "password": "123456",
+      "phnumber": 123456,
+      "address": "HISAR",
+      "cpassword": "123456",
+      "history": "no",
+      "id": 27
+    },
+    {
+      "firstName": "pritish",
+      "lastName": "sinha",
+      "email": "p@s.com",
+      "password": "123456",
+      "phnumber": 123456,
+      "address": "dehradun",
+      "cpassword": "123456",
+      "history": "no",
+      "id": 28
+    },
+    {
+      "firstName": "bhanu",
+      "lastName": "pratapsingh",
+      "fullName": "bhanu pratapsingh",
+      "email": "b@p.com",
+      "phnumber": 123456,
+      "address": "HISAR",
+      "password": "123456",
+      "cpassword": "123456",
+      "history": "no",
+      "id": 29
+    },
+    {
+      "firstName": "naman",
+      "lastName": "goyal",
+      "fullName": "naman goyal",
+      "email": "n@g.com",
+      "phnumber": 123456,
+      "address": "HISAR",
+      "password": "123456",
+      "cpassword": "123456",
+      "history": "no",
+      "id": 30
+    },
+    {
+      "firstName": "nandni",
+      "lastName": "goyal",
+      "fullName": "nandni goyal",
+      "email": "nan@g.com",
+      "phnumber": 123456,
+      "address": "HISAR",
+      "password": "123456",
+      "cpassword": "123456",
+      "history": "no",
+      "id": 31
+    }
+  ],
+  "my-bookings": [
+    {
+      "date": "1-2-2019",
+      "time": "12pm",
+      "status": "ongoing",
+      "traveler": "sachin",
+      "upcoming": "true",
+      "past": "false",
+      "address": " 106-n,model-town"
+    },
+    {
+      "date": "2-2-2019",
+      "time": "1pm",
+      "status": "on the way",
+      "traveler": "surbhi",
+      "upcoming": "true",
+      "past": "false",
+      "address": "107-n,model-town"
+    },
+    {
+      "date": "3-2-2019",
+      "time": "2pm",
+      "status": "ongoing",
+      "traveler": "konica",
+      "upcoming": "true",
+      "past": "false",
+      "address": "108-n,model-town"
+    },
+    {
+      "date": "4-2-2019",
+      "time": "3pm",
+      "status": "completed",
+      "traveler": "rohan",
+      "upcoming": "false",
+      "past": "true",
+      "address": "109-n,model-town"
+    },
+    {
+      "date": "5-2-2019",
+      "time": "3pm",
+      "status": "completed",
+      "traveler": "sohan",
+      "upcoming": "false",
+      "past": "true",
+      "address": "110-n,model-town"
+    },
+    {
+      "date": "6-2-2019",
+      "time": "4pm",
+      "status": "completed",
+      "traveler": "sohan",
+      "upcoming": "false",
+      "past": "true",
+      "address": "111-n,model-town"
+    }
+  ],
+  "FAQs": [
+    {
+      "Qns": "What currency is the course charged in?",
+      "Ans": "The course is charged in Australian dollars."
+    },
+    {
+      "Qns": "What currency is the course charged in?",
+      "Ans": "The course is charged in Australian dollars."
+    },
+    {
+      "Qns": "What currency is the course charged in?",
+      "Ans": "The course is charged in Australian dollars."
+    },
+    {
+      "Qns": "What currency is the course charged in?",
+      "Ans": "The course is charged in Australian dollars."
+    }
+  ]
+}

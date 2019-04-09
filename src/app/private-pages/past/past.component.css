@@ -1,0 +1,40 @@
+div{
+    border: 1px solid gray;
+    margin-left:40px;
+    margin-right:200px;
+    box-shadow: 0 0 10px gray;
+}
+ul{ 
+    border: 1px solid gray; 
+    border-radius: 3px; 
+    padding: 7px; 
+    margin-bottom: 30px; 
+    width: 70%; 
+    margin-left: 7.3%; 
+    margin-top: 20px;
+    list-style-type: none;
+    background-color: rgba(128, 128, 128, 0.584);
+    
+    } 
+    #status{ 
+    float: right; 
+    color: red ; 
+    /* font-style: bold; */ 
+    font-weight: 20px; 
+    } 
+    #date{ 
+    color:blue; 
+    float:top; 
+    } 
+    #traveler{ 
+    font-size: 30px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color:blue;
+    } 
+    #address{ 
+    color: blue;
+    }
+    #time{
+        padding-left: 30px;
+        color: blue;
+    }

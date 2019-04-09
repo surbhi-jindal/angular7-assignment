@@ -1,0 +1,14 @@
+a{
+    color: gray;
+    margin-left: 120px;
+    padding:10px;
+    
+}
+a:hover,
+a:active {
+    color: green;
+}
+h3{
+    text-align: center;
+    color: green;
+}
